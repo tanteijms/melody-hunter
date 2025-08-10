@@ -1,0 +1,31 @@
+# Django框架
+Django==4.2.7
+djangorestframework==3.14.0
+django-filter==23.3
+
+# 爬虫相关
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+selenium==4.15.2
+scrapy==2.11.0
+
+# 跨域处理
+django-cors-headers==4.3.1
+
+# 图片处理
+Pillow==10.1.0
+
+# 异步任务
+celery==5.3.4
+redis==5.0.1
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# 数据库
+mysqlclient==2.2.0
+
+# 其他工具
+user-agents==2.2.0
+fake-useragent==1.4.0

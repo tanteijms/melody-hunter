@@ -1,0 +1,32 @@
+[
+  {
+    "model": "music.platform",
+    "pk": 1,
+    "fields": {
+      "name": "网易云音乐",
+      "base_url": "https://music.163.com",
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "music.platform",
+    "pk": 2,
+    "fields": {
+      "name": "QQ音乐",
+      "base_url": "https://y.qq.com",
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "music.platform",
+    "pk": 3,
+    "fields": {
+      "name": "酷狗音乐",
+      "base_url": "https://www.kugou.com",
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]

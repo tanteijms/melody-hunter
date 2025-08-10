@@ -1,0 +1,17 @@
+# Django配置
+SECRET_KEY=your-secret-key-here-please-change-this-in-production
+DEBUG=True
+
+# 数据库配置
+DB_NAME=melody_hunter
+DB_USER=root
+DB_PASSWORD=your_password_here
+DB_HOST=localhost
+DB_PORT=3306
+
+# Redis配置 (用于Celery)
+REDIS_URL=redis://localhost:6379/0
+
+# 爬虫配置
+CRAWLER_USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+CRAWLER_DELAY=1
